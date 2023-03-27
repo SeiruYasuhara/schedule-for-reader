@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management</title>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+  <h1 class = "title">Task Management</h1>
+
+  <form id="taskForm">
+    <label for="member">メンバー:</label>
+    <input type="text" id="member" required>
+
+    <label for="task">タスク:</label>
+    <input type="text" id="task" required>
+
+    <label for="due-date">期日:</label>
+    <input type="date" id="due-date" required>
+
+    <button type="submit" class="bold">＋</button>
+
+    
+<button id="toggle-layout">表示切り替え</button>
+
+    
+
+  </form>
+
+  <div id="tasks-container"></div>
+  <div id="calendar"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>

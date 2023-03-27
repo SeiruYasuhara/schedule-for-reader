@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+@media (max-width: 600px) {
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  form {
+    flex-direction: column;
+  }
+}
+
+
+.title{
+  text-align: center;
+}
+
+
+.day.saturday {
+  color: blue;
+}
+.day.sunday {
+  color: red;
+}
+
+.task {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.calendar-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.calendar-table th,
+.calendar-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.calendar-table th {
+  background-color: #eee;
+}
+
+.calendar-table .today {
+  background-color: #e0e0e0;
+}
+
+.countdown {
+  color: #333; /* ここで色を設定 */
+}
+
+
+
+.delete-button {
+  color: #e61546;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+.horizontal-layout .task {
+  display: inline-block;
+  width: calc(31% - 20px);
+  margin: 20px 5px;
+  
+}
+
+
+.delete-button {
+  
+    display:inline-block;
+  
+}
+
